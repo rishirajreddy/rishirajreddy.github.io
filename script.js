@@ -22,6 +22,7 @@ document.querySelector("#pause").onclick = () => {
 document.querySelector("#resume").onclick = () => {
   document.querySelector("#pause").style.display = "inline-block";
   document.querySelector("#resume").style.display = "none";
+  document.querySelector("#reset").disabled = true;
   change();
 };
 
