@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop-Watch</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    <div id="stopwatch" class="main"><i class="lni lni-alarm-clock lni-lg" style="color: blanchedalmond; margin-bottom: 10px;"></i>
+      <div id="timer">
+        <div id="labels">
+          <label for="text">Minutes</label>
+          <label for="text">Seconds</label>
+          <label for="text">MiliSeconds</label>
+        </div>
+        <h1 class="numbers">
+          <span id="min">00</span>:
+
+          <span id="sec">00</span>:
+
+          <span id="mil">000</span>
+        </h1>
+      </div>
+
+      <div id="buttons">
+        <button id="start" class="btn btn-primary">Start</button>
+        <button id="pause" class="btn btn-warning" style="display: none">Pause</button>
+        <button id="resume" class="btn btn-success" style="display: none">Resume</button>
+        <button id="reset" class="btn btn-danger">Reset</button>
+      </div>
+    </div>
+  </header>
+  </body> 
+
+  <script src="script.js"></script>
+</html>
